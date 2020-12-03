@@ -21,7 +21,7 @@ class Mailer
             ->text("hello")
             ->html("<h1>Bienvenue</h1><br><p>Voici mon premier mail</p>");
         
-        $this->mailerInterface->send($email);
+        //$this->mailerInterface->send($email);
         
         return "ok";
     }
